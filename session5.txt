@@ -1,0 +1,7 @@
+#session5
+nubers
+strings
+list
+truples
+dictonary
+set
