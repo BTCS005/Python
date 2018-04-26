@@ -1,4 +1,4 @@
-#Snake and ladder program
+#Random_program
 import random
 r=random.randint(1,6)
 print(r)
