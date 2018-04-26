@@ -1,0 +1,85 @@
+Python 3.6.3 (default, Oct  3 2017, 21:45:48) 
+[GCC 7.2.0] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+Google Speech Recognition could not understand audio
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+You said: hello
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+You said: I got you
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+Google Speech Recognition could not understand audio
+
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+You said: hello I am Prabhu student
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+Traceback (most recent call last):
+  File "/home/user/sr_sahana.py", line 14, in <module>
+    print("You said: " + r.recognize_google(audio))
+  File "/home/user/.local/lib/python3.6/site-packages/speech_recognition/__init__.py", line 845, in recognize_google
+    response_text = response.read().decode("utf-8")
+  File "/usr/lib/python3.6/http/client.py", line 459, in read
+    s = self.fp.read()
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+Traceback (most recent call last):
+  File "/home/user/sr_sahana.py", line 14, in <module>
+    print("You said: " + r.recognize_google(audio))
+  File "/home/user/.local/lib/python3.6/site-packages/speech_recognition/__init__.py", line 845, in recognize_google
+    response_text = response.read().decode("utf-8")
+  File "/usr/lib/python3.6/http/client.py", line 459, in read
+    s = self.fp.read()
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+Traceback (most recent call last):
+  File "/home/user/sr_sahana.py", line 14, in <module>
+    print("You said: " + r.recognize_google(audio))
+  File "/home/user/.local/lib/python3.6/site-packages/speech_recognition/__init__.py", line 845, in recognize_google
+    response_text = response.read().decode("utf-8")
+  File "/usr/lib/python3.6/http/client.py", line 459, in read
+    s = self.fp.read()
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+You said: Indian Railway
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+You said: Telugu Jayasurya
+>>> 
+====================== RESTART: /home/user/sr_sahana.py ======================
+Say something!
+You said: Sandeep
+>>> 
